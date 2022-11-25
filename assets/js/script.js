@@ -5,8 +5,6 @@ let csrf_value = $("input[name=csrf_value]").val();
 
 $(document).ajaxStart($.blockUI).ajaxStop($.unblockUI);
 
-$("#registerModal").modal('show');
-
 if($("#register-form").length > 0)
 {
     $("#register-form").validate({
@@ -18,6 +16,8 @@ if($("#register-form").length > 0)
             country: "required",
             state: "required",
             city: "required",
+            password: "required",
+            terms: "required",
             name: {
                 required: true,
                 maxlength: 50
@@ -31,24 +31,15 @@ if($("#register-form").length > 0)
                 required: true,
                 maxlength: 255
             },
-            dob: {
-                required: true
-            },
             mobile: {
                 required: true,
                 minlength: 10,
                 maxlength: 10,
                 number: true
-            },
-            password: {
-                required: true
-            },
-            terms: {
-                required: true
             }
         },
-        errorPlacement: function(error, element) {},
-        submitHandler: function(form) {
+        errorPlacement: (error, element) => {},
+        submitHandler: (form) => {
             var data = new FormData(form);
             $.ajax({
                 url: $(form).attr('action'),
@@ -63,13 +54,13 @@ if($("#register-form").length > 0)
                     $("#resigter-errors").html("<div class='text-danger'>Something not going good. Try again.</div>");
                 },
                 success: function(result) {
-                    if (result.error !== true) {
+                    if (result.status === true) {
                         var options = {
                             "key": $("input[name=razor_key]").val(),
                             "order_id": result.order_id,
                             "amount": (result.amount * 100),
                             "prefill": {
-                                "name": `${data.get("name")}}`,
+                                "name": `${data.get("name")}`,
                                 "contact": data.get("mobile"),
                                 "email": data.get("email"),
                             },
@@ -91,12 +82,12 @@ if($("#register-form").length > 0)
                                     error: function() {
                                         $("#resigter-errors").html("<div class='text-danger'>Something not going good. Try again.</div>");
                                     },
-                                    success: function(res) {                                            
+                                    success: function(res) {
                                         if (res.redirect) {
                                             window.location.href = res.redirect;
                                             return;
                                         }else
-                                            $('#resigter-errors').html(res.message);
+                                            $("#resigter-errors").html(`<div class='text-danger'>${result.message}</div>`);
                                     }
                                 });
                             }
@@ -105,7 +96,7 @@ if($("#register-form").length > 0)
                         rzp1.open();                       
                         return;
                     } else
-                        $("#resigter-errors").html(result.message);
+                        $("#resigter-errors").html(`<div class='text-danger'>${result.message}</div>`);
                 }
             });
         }
@@ -170,6 +161,13 @@ const getCities = (select) => {
 const getPapers = (select) => {
     let cat_id = select.value;
 
+    let price = $(select).find(":selected").data("price");
+    
+    if (price)
+        $('#new_price').html(price);
+    else
+        $('#new_price').html('0');
+
     $.ajax({
         url: `${base_url}home/getPapers`,
         type: "GET",
@@ -194,3 +192,34 @@ const getPapers = (select) => {
         }
     });
 };
+
+const getLang = (select) => {
+    let e_id = select.value;
+    let dependent = $(select).data('dependent');
+    $.ajax({
+        url: `${base_url}home/getLang`,
+        type: "GET",
+        data: { e_id, e_id },
+        dataType: 'json',
+        async: false,
+        error: function() {
+            $("#resigter-errors").html("<div class='text-danger'>Something not going good. Try again.</div>");
+        },
+        success: function(res) {
+            let langs = '<option disabled selected>Select Exam Language</option>';
+            if (res.message.length > 0) {
+                $(res.message).each(function(k, v) {
+                    langs += `<option value="${v.lang_id}">${v.language}</option>`;
+                });
+                $("#" + dependent).attr('readonly', false);
+            } else
+                $("#" + dependent).attr('readonly', true);
+            $("#" + dependent).html(langs);
+        }
+    });
+};
+
+$("#terms").click(function () {
+    if (!$(this).prop("checked")) $("#show-terms-error").fadeIn();
+    else $("#show-terms-error").fadeOut();
+});

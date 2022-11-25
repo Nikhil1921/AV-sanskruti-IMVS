@@ -3,3 +3,6 @@
 $route['default_controller'] = 'home';
 $route['404_override'] = 'home/error_404';
 $route['translate_uri_dashes'] = TRUE;
+
+$route['register']['post'] = 'home/register';
+$route['thankyou'] = 'pages/thankyou';

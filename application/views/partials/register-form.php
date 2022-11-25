@@ -30,11 +30,6 @@
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <!-- <div class="form-group">
-                                    <label>Your Date of Birth:</label>
-                                    <input onchange="getCategory(this.value)" class="form-control" type="date" placeholder="Enter Date of Birth" name="dob" id="dob-change">
-                                    <span class="text-danger" id="exam-error" style="display:none;">You are not eligible for the exam</span>
-                                </div> -->
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
@@ -88,7 +83,7 @@
                                     <select class="form-control" name="exams" id="exm_cat" onchange="getPapers(this)">
                                         <option readonly value="" selected> Select Current year STD</option>
                                         <?php foreach ($this->main->getCategory() as $cat): ?>
-                                            <option value="<?= $cat['id'] ?>"> <?= $cat['cat_name'] ?></option>
+                                            <option data-price="<?= $cat['price'] ?>" value="<?= $cat['id'] ?>"> <?= $cat['cat_name'] ?></option>
                                         <?php endforeach ?>
                                     </select>
                                 </div>

@@ -55,4 +55,16 @@ class MY_Controller extends CI_Controller
 
 		die(json_encode($response));
 	}
+	
+	public function getLang()
+	{
+		check_ajax();
+		
+		$response = [
+			'message' => $this->main->getLang(d_id($this->input->get('e_id'))),
+			'status' => true
+		];
+
+		die(json_encode($response));
+	}
 }
