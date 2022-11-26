@@ -103,6 +103,109 @@ if($("#register-form").length > 0)
     });
 }
 
+if($("suppoters-form").length > 0)
+{
+    $("#suppoters-form").validate({
+        rules: {
+            name: "required",
+            amount: "required",
+            check: "required",
+            number: "required",
+            email: "required",
+            pincode: "required",
+            name: {
+                required: true,
+                maxlength: 50
+            },
+            amount: {
+                required: true,
+                maxlength: 50
+            },
+            check: {
+                required: true,
+                maxlength: 50
+            },
+            email: {
+                required: true,
+                email: true,
+                maxlength: 100
+            },
+            pincode: {
+                required: true,
+                maxlength: 6
+            },
+            number: {
+                required: true,
+                minlength: 10,
+                maxlength: 10,
+                number: true
+            }
+        },
+        errorPlacement: (error, element) => {},
+        submitHandler: (form) => {
+            var data = new FormData(form);
+            $.ajax({
+                url: $(form).attr('action'),
+                type: "POST",
+                data: data,
+                dataType: 'JSON',
+                async: false,
+                contentType: false,
+                cache: false,
+                processData: false,
+                error: function() {
+                    $("#suppoters-form").html("<div class='text-danger'>Something not going good. Try again.</div>");
+                },
+                success: function(result) {
+                    if (result.status === true) {
+                        var options = {
+                            "key": $("input[name=razor_key]").val(),
+                            "order_id": result.order_id,
+                            "amount": (result.amount * 100),
+                            "prefill": {
+                                "name": `${data.get("name")}`,
+                                "contact": data.get("mobile"),
+                                "email": data.get("email"),
+                            },
+                            "handler": function(response) {
+                                data.set("payment_id", response.razorpay_payment_id);
+                                data.set("order_id", response.razorpay_order_id);
+                                data.set("signature", response.razorpay_signature);
+                                data.set("payment-method", "Razorpay");
+                                
+                                $.ajax({
+                                    url: $(form).attr('action'),
+                                    type: "POST",
+                                    data: data,
+                                    dataType: 'JSON',
+                                    async: false,
+                                    contentType: false,
+                                    cache: false,
+                                    processData: false,
+                                    error: function() {
+                                        $("#resigter-errors").html("<div class='text-danger'>Something not going good. Try again.</div>");
+                                    },
+                                    success: function(res) {
+                                        if (res.redirect) {
+                                            window.location.href = res.redirect;
+                                            return;
+                                        }else
+                                            $("#resigter-errors").html(`<div class='text-danger'>${result.message}</div>`);
+                                    }
+                                });
+                            }
+                        };
+                        var rzp1 = new Razorpay(options);
+                        rzp1.open();                       
+                        return;
+                    } else
+                        $("#resigter-errors").html(`<div class='text-danger'>${result.message}</div>`);
+                }
+            });
+        }
+    });
+}
+
 const getStates = (select) => {    
     let country_id = select.value;
     let dependent = $(select).data('dependent');

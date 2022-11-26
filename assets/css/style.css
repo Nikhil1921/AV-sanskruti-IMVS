@@ -16279,3 +16279,12 @@ form.white-popup-block li, form.white-popup-block-small li {
 .services-icons img {
   transition: transform .5s;
 }
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.border_bottom {
+    border: 0;
+    border-bottom: 1px solid #505050;
+}
