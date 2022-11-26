@@ -6,3 +6,9 @@ $route['translate_uri_dashes'] = TRUE;
 
 $route['register']['post'] = 'home/register';
 $route['thankyou'] = 'pages/thankyou';
+$route['about-scholarship'] = 'pages/about_scholarship';
+$route['why-av-sanskruti-sanstha'] = 'pages/why_av_sanskruti_sanstha';
+$route['syllabus'] = 'pages/syllabus';
+$route['supporters'] = 'pages/supporters';
+$route['how-to-apply'] = 'pages/how_to_apply';
+$route['contact'] = 'pages/contact';

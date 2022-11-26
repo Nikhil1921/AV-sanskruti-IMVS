@@ -88,10 +88,10 @@
                                                     <?= anchor('', 'Home'); ?>
                                                 </li>
                                                 <li>
-                                                    <?= anchor('about_scholarship', 'About Scholarship'); ?>
+                                                    <?= anchor('about-scholarship', 'About Scholarship'); ?>
                                                 </li>
                                                 <li>
-                                                    <?= anchor('why_av_sanskruti_sansthaa', 'Why AV Sanskruti Sanstha'); ?>
+                                                    <?= anchor('why-av-sanskruti-sanstha', 'Why AV Sanskruti Sanstha'); ?>
                                                 </li>
                                                 <li>
                                                     <?= anchor('syllabus', 'Syllabus'); ?>
@@ -100,7 +100,7 @@
                                                     <?= anchor('supporters', 'Supporters'); ?>
                                                 </li>
                                                 <li>
-                                                    <?= anchor('how_to_apply', ' How to apply'); ?>
+                                                    <?= anchor('how-to-apply', ' How to apply'); ?>
                                                 </li>
                                                 <li>
                                                     <?= anchor('contact', 'Contact'); ?>
@@ -135,6 +135,22 @@
                 </nav>
             </header>
         </div>
+        <?php if(isset($breadcrumbs)): ?>
+        <div class="rs-breadcrumbs breadcrumbs-overlay">
+            <div class="breadcrumbs-img">
+                <?= img('assets/images/2.jpg') ?>
+            </div>
+            <div class="breadcrumbs-text white-color">
+                <h1 class="page-title"><?= $breadcrumbs ?></h1>
+                <ul>
+                    <li>
+                        <?= anchor('', 'Home', 'class="active"'); ?>
+                    </li>
+                    <li><?= $breadcrumbs ?></li>
+                </ul>
+            </div>
+        </div>
+        <?php endif ?>
         <?= $contents ?>
         <footer id="rs-footer" class="rs-footer bg_footer home9-style main-home">
             <div class="footer-top">
