@@ -41,41 +41,32 @@
                 <h2 class="text-center"><strong>Complete Transparency</strong></h2>
             </div>
         </div>
-
-
-
-        <div class="row justify-content-center mt-5">
+        <div class="row justify-content-center mt-5">            
             <div class="col-lg-8 col-md-8 col-sm-12 col-12">
                 <div class="volunteers_form">
-                    <h4>If you believe that education is important for the betterment of the country, then take a pledge
+                    <h4>If you believe that education is important for the betterment of the country, then take a pledge
                         and fill out this form to make a difference in someone's life.</h4>
-
-
-                    <?= form_open('register', 'id="suppoters-form"') ?>
-                    <p class="text-black"><strong>I, Name <input name="name" type="text" class="border_bottom"> take
-                            this pledge
-                            to
-                            be a part of the
-                            2023-2024 scholarship program and will provide a scholarship of Rs <input name="amount"
-                                type="text" class="border_bottom"> , in
-                            words, an amount of <input name="check" type="text" class="border_bottom"> to a scholar
-                            directly for
-                            his/her
-                            bright future.</strong></p>
-                    <p class="text-black"><strong>
-                            Mobile Number :- <input name="number" type="number" class="border_bottom"> <br>E-Mail ID :-
-                            <input name="email" type="email" class="border_bottom">
-                            <br>Pincode :- <input name="pincode" type="text" class="border_bottom">
+                    <?= form_open('', 'id="suppoters-form"') ?>
+                    <p class="text-black">
+                        <strong>I, Name <input name="name" type="text" class="border_bottom" maxlength="50" /> take this pledge to 
+                                be a part of the 2023-2024 scholarship program and will provide a scholarship of Rs 
+                                <input name="amount" id="amount" type="text" class="border_bottom" maxlength="9" /> , in words, an amount of 
+                                <u><span id="words"></span> </u> to a scholar directly for his/her
+                                bright future.
                         </strong>
                     </p>
-                    </form>
+                    <p class="text-black">
+                        <strong>
+                            Mobile No :- &nbsp;<input name="mobile" type="text" class="border_bottom" maxlength="10" /> <br>
+                            E-Mail ID :- &nbsp;&nbsp;&nbsp;<input name="email" type="email" class="border_bottom" maxlength="100" /> <br>
+                            Pin code :- &nbsp;&nbsp;&nbsp;<input name="pincode" type="text" class="border_bottom" maxlength="6" />
+                        </strong>
+                    </p>
+                    <div id="show-alert"></div>
+                    <button class="btn_submit" type="submit">Submit</button>
+                    <?= form_close() ?>
                 </div>
             </div>
-            <div class="col-8 mt-3 justify-content-center">
-                <button class="btn_submit" type="submit">Submit</button>
-            </div>
         </div>
-
-
     </div>
 </div>

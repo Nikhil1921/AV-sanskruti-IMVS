@@ -39,10 +39,27 @@ class Pages extends MY_Controller {
 
     public function supporters()
 	{
-		$data['title'] = 'Supporters';
-		$data['name'] = 'supporters';
+		if(! $this->input->is_ajax_request()) {
+			$data['title'] = 'Supporters';
+			$data['name'] = 'supporters';
 
-		return $this->template->load('template', 'pages/supporters', $data);
+			return $this->template->load('template', 'pages/supporters', $data);
+		} else {
+			$post = [
+				'name'		=> $this->input->post('name'),
+				'amount'	=> $this->input->post('amount'),
+				'mobile'	=> $this->input->post('mobile'),
+				'email'		=> $this->input->post('email'),
+				'pincode'	=> $this->input->post('pincode')
+			];
+
+			if($this->main->add($post, 'pledges'))
+				$response = ['status' => true, 'message' => "Data saved successfully."];
+			else
+				$response = ['status' => false, 'message' => "Some error occured."];
+			
+			die(json_encode($response));
+		}
 	}
 
     public function how_to_apply()
