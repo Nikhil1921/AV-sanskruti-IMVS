@@ -325,23 +325,29 @@
             <div class="offset-lg-1"></div>
             <div class="col-lg-6">
                 <div class="about-content">
-                    <div class="sec-title mb-46 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms"
+                    <div class="sec-title mb-46 wow fadeInUp mb-0" data-wow-delay="300ms" data-wow-duration="2000ms"
                         style="visibility: visible; animation-duration: 2000ms; animation-delay: 300ms; animation-name: fadeInUp;">
                         <div class="sub-title">A HISTORICAL TEMPLE OF MAA SHARADA</div>
                         <h2 class="title mb-15 sm-mb-5">Sharda Peeth History</h2>
-                        <p class="desc text-justify">Sharda Peeth is one of the most celebrated, prestigious & important
+                        <p class="desc text-justify"><strong>Sharda Peeth</strong> is one of the most celebrated,
+                            prestigious & important
                             Hindu
                             Pilgrimage (temples) in the world. It was built by the Kushan Empire in the 1st CE and once
-                            housed the Sharda University, with over 5000 scholars and a grand library. It was one of the
+                            housed the <strong>Sharda University</strong>, with over 5000 scholars and a grand library.
+                            It was one of the
                             most prominent learning centres till 12th CE, which received the most learned Hindu, Jain &
-                            Buddhist scholars like Jagatguru Adi Shankaracharya, Kalhana & Virotsana. Currently, it is
+                            Buddhist scholars like <strong>Jagatguru Adi Shankaracharya, Kalhana & Virotsana</strong>.
+                            Currently, it is
                             located in an illegally Occupied part of Jammu and Kashmir, by Pakistan. With the partition,
-                            the Indian Hindus lost their right to visit & pray at the Saraswati Sharda Peeth in the year
+                            the Indian Hindus lost their right to visit & pray at the <strong>Saraswati Sharda
+                                Peeth</strong> in the year
                             1947 & after the same, have never been able to visit & pray there.</p>
-                        <p class="desc text-justify m-0 p-0">It is also one of the 51 Shakti Peethas and as per the
+                        <p class="desc text-justify m-0 p-0">It is also one of the <strong>51 Shakti Peethas</strong>
+                            and as per the
                             Puranic
                             Story, the right
-                            hand of Mata fell here and therefore it was commissioned to be a Shakti Peeth.</p>
+                            hand of Mata fell here and therefore it was commissioned to be a <strong>Shakti
+                                Peeth</strong>.</p>
                     </div>
                 </div>
             </div>
