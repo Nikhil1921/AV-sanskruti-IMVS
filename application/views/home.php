@@ -240,7 +240,7 @@
                             </div> -->
                         </div>
                         <div class="content-part">
-                            <h4 class="title mb-0"><a href="assets/images/mantri/nadiyad.pdf" target="_blank">Nadiyad
+                            <h4 class="title mb-0"><a href="assets/images/mantri/nadiyad.PDF" target="_blank">Nadiyad
                                     Temple</a></h4>
                         </div>
                     </div>
