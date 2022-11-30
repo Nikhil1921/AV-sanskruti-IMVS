@@ -12,3 +12,6 @@ $route['syllabus'] = 'pages/syllabus';
 $route['supporters'] = 'pages/supporters';
 $route['how-to-apply'] = 'pages/how_to_apply';
 $route['contact'] = 'pages/contact';
+$route['sharda-peeth-sthal'] = 'pages/sharda_peeth_sthal';
+$route['sharda-peeth-historic-importance'] = 'pages/sharda_peeth_historic_importance';
+$route['glimpse-of-sharda-peeth'] = 'pages/glimpse_of_sharda_peeth';

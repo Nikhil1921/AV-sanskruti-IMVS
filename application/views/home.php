@@ -160,3 +160,191 @@
         </div>
     </div>
 </div>
+
+
+<div class="rs-event modify1 event-bg orange-color pt-70 pb-70 md-pt-70 md-pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-30 col-md-6">
+                <div class="event-item">
+                    <div class="event-short">
+                        <div class="featured-img">
+                            <img src="assets/images/mantri/bhupendrabhai.png" alt="Image">
+                            <div class="dates">
+                                HON'BLE CHIEF MINISTER OF GUJARAT
+                            </div>
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title mb-0"><a href="assets/images/mantri/3.jpeg" target="_blank">Shri Bhupendra
+                                    Patel</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-30 col-md-6">
+                <div class="event-item">
+                    <div class="event-short">
+                        <div class="featured-img">
+                            <img src="assets/images/mantri/jituvaghani.jpg" alt="Image">
+                            <div class="dates">
+                                HON'BLE MINISTER OF EDUCATION IN GOVERNMENT OF GUJARAT
+                            </div>
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title mb-0"><a href="assets/images/mantri/message.pdf" target="_blank">Shri
+                                    Jitubhai S.
+                                    Vaghani</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-30 col-md-6">
+                <div class="event-item">
+                    <div class="event-short">
+                        <div class="featured-img">
+                            <img src="assets/images/mantri/ambaji.jpeg" alt="Image">
+                            <!-- <div class="dates">
+                                HON'BLE CHIEF MINISTER OF GUJARAT
+                            </div> -->
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title mb-0"><a href="assets/images/mantri/ambaji.mp4" target="_blank">Ambaji
+                                    Temple</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-30 col-md-6">
+                <div class="event-item">
+                    <div class="event-short">
+                        <div class="featured-img">
+                            <img src="assets/images/mantri/unjha.jpg" alt="Image">
+                            <!-- <div class="dates">
+                                HON'BLE CHIEF MINISTER OF GUJARAT
+                            </div> -->
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title mb-0"><a href="assets/images/mantri/unjha.mp4" target="_blank">Unjha
+                                    Temple</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-30 col-md-6">
+                <div class="event-item">
+                    <div class="event-short">
+                        <div class="featured-img">
+                            <img src="assets/images/mantri/nadiyad.jpg" alt="Image">
+                            <!-- <div class="dates">
+                                HON'BLE CHIEF MINISTER OF GUJARAT
+                            </div> -->
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title mb-0"><a href="assets/images/mantri/nadiyad.pdf" target="_blank">Nadiyad
+                                    Temple</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-30 col-md-6">
+                <div class="event-item">
+                    <div class="event-short">
+                        <div class="featured-img">
+                            <img src="assets/images/mantri/jaganath.jpg" alt="Image">
+                            <div class="dates">
+                                SHRI JAGGANATH TEMPLE, AHMEDABAD
+                            </div>
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title mb-0"><a href="assets/images/mantri/Jagganath.mp4" target="_blank">Mahant
+                                    Shri Dilipdas Ji Maharaj</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 md-mb-30">
+                <div class="event-item">
+                    <div class="event-short">
+                        <div class="featured-img">
+                            <img src="assets/images/mantri/sita-sahu.jpeg" alt="Image">
+                            <div class="dates">
+                                MAYOR PATNA
+                            </div>
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title mb-0"><a href="assets/images/mantri/sitasahu.mp4" target="_blank">Sita
+                                    Sahu</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 sm-mb-30">
+                <div class="event-item">
+                    <div class="event-short">
+                        <div class="featured-img">
+                            <img src="assets/images/mantri/10.png" alt="Image">
+                            <div class="dates">
+                                SHAKTI PEETH BADA PATAN DEVI, PATNA
+                            </div>
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title mb-0"><a href="assets/images/mantri/manoj.mp4" target="_blank">Manoj
+                                    Shrimali</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="event-item">
+                    <div class="event-short">
+                        <div class="featured-img">
+                            <img src="assets/images/mantri/9.png" alt="Image">
+                            <div class="dates">
+                                PUJARI SHITLA MATA MANDIR
+                            </div>
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title mb-0"><a href="assets/images/mantri/brijnath.mp4" target="_blank">Mahant
+                                    shri Brij nath</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="rs-about" class="rs-about style4 pt-50 pb-50 md-pt-80 md-pb-80">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 md-mb-50">
+                <div class="img-part">
+                    <img class="about-main" src="assets/images/saraswati.png" alt="Image">
+                </div>
+            </div>
+            <div class="offset-lg-1"></div>
+            <div class="col-lg-6">
+                <div class="about-content">
+                    <div class="sec-title mb-46 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms"
+                        style="visibility: visible; animation-duration: 2000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                        <div class="sub-title">A HISTORICAL TEMPLE OF MAA SHARADA</div>
+                        <h2 class="title mb-15 sm-mb-5">Sharda Peeth History</h2>
+                        <p class="desc text-justify">Sharda Peeth is one of the most celebrated, prestigious & important
+                            Hindu
+                            Pilgrimage (temples) in the world. It was built by the Kushan Empire in the 1st CE and once
+                            housed the Sharda University, with over 5000 scholars and a grand library. It was one of the
+                            most prominent learning centres till 12th CE, which received the most learned Hindu, Jain &
+                            Buddhist scholars like Jagatguru Adi Shankaracharya, Kalhana & Virotsana. Currently, it is
+                            located in an illegally Occupied part of Jammu and Kashmir, by Pakistan. With the partition,
+                            the Indian Hindus lost their right to visit & pray at the Saraswati Sharda Peeth in the year
+                            1947 & after the same, have never been able to visit & pray there.</p>
+                        <p class="desc text-justify m-0 p-0">It is also one of the 51 Shakti Peethas and as per the
+                            Puranic
+                            Story, the right
+                            hand of Mata fell here and therefore it was commissioned to be a Shakti Peeth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

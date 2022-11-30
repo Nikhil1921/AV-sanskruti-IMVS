@@ -79,4 +79,30 @@ class Pages extends MY_Controller {
 
 		return $this->template->load('template', 'pages/contact', $data);
 	}
+    public function sharda_peeth_sthal()
+	{
+		$data['title'] = 'Sharda Peeth Sthal';
+		$data['name'] = 'sharda_peeth_sthal';
+		$data['breadcrumbs'] = 'Sharda Peeth Sthal';
+
+		return $this->template->load('template', 'pages/sharda_peeth_sthal', $data);
+	}
+    public function sharda_peeth_historic_importance()
+	{
+		$data['title'] = 'Sharda Peeth Historic Importance';
+		$data['name'] = 'sharda_peeth_historic_importance';
+		$data['breadcrumbs'] = 'Sharda Peeth Historic Importance';
+
+		return $this->template->load('template', 'pages/sharda_peeth_historic_importance', $data);
+	}
+    public function glimpse_of_sharda_peeth()
+	{
+		$data['title'] = 'A Glimpse of Sharda Peeth';
+		$data['name'] = 'glimpse_of_sharda_peeth';
+		$data['breadcrumbs'] = 'A Glimpse of Sharda Peeth';
+
+		return $this->template->load('template', 'pages/glimpse_of_sharda_peeth', $data);
+	}
+
+	
 }
