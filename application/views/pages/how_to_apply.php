@@ -17,8 +17,8 @@
                                 <h2 class="title">(1) Eligibility</h2>
                             </div>
                             <p class="text">
-                                Students who have scored 60% or more in their previous academic year are eligible to
-                                apply for the scholarship
+                                This scholarship program is open to children from families with an annual income of less
+                                than Rs 6,00,000.
                             </p>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                                 <h2 class="title">(3) Exam</h2>
                             </div>
                             <p class="text">
-                                Those candidates who have applied for the scholarship have to appear for an online exam
+                                Those students who have applied for the scholarship have to appear for an online exam
                                 on Vasant Panchami i.e. on 26 January 2023
                             </p>
                         </div>
@@ -71,7 +71,7 @@
                                 <h2 class="title">(3) Scholarship</h2>
                             </div>
                             <p class="text">
-                                Candidates who have secured 70% or more will be shortlisted for the scholarship.
+                                students who have secured 70% or more will be shortlisted for the scholarship.
                             </p>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <p class="text-left" data-aos="flip-down">
-                        Those candidates who have applied for the scholarship have to appear for an online exam on
+                        Those students who have applied for the scholarship have to appear for an online exam on
                         Vasant Panchami i.e. on 26 January 2023
                     </p>
                 </div>
@@ -147,7 +147,7 @@
                     <h2 class="step-title text-left displaytitley" data-aos="flip-up"><span
                             class="color-main">04</span>Scholarship</h2>
                     <p class="text-right displaytitlen" data-aos="flip-down">
-                        Candidates who have secured 70% or more will be shortlisted for the scholarship.
+                        students who have secured 70% or more will be shortlisted for the scholarship.
                     </p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -157,7 +157,7 @@
                     <h2 class="step-title text-left displaytitlen" data-aos="flip-up"><span
                             class="color-main">04</span>Scholarship</h2>
                     <p class="text-right displaytitley" data-aos="flip-down">
-                        Candidates who have secured 70% or more will be shortlisted for the scholarship.
+                        students who have secured 70% or more will be shortlisted for the scholarship.
                     </p>
                 </div>
             </div>
@@ -183,7 +183,7 @@
                         <h2 class="title mb-15 sm-mb-5">How to Apply?</h2>
                         <p class="desc text-justify">
                             Fresh students applying for a scholarship for the first time must "Register" on the
-                            site as fresh candidates by giving accurate and verified information from their
+                            site as fresh students by giving accurate and verified information from their
                             documentation in the "Student Registration Form."
                         </p>
                         <p class="desc text-justify">
@@ -232,36 +232,26 @@
                         <h2 class="title mb-15 sm-mb-5">Scholarship Details</h2>
                         <p class="desc text-justify">
                             This scholarship program is conducted across pan-India, strictly based on merit of a
-                            candidate. Students from Grade 6 who have achieved a score of at least 60% can apply
+                            student. Students from Grade 6 who have achieved a score of at least 60% can apply
                             for this scholarship exam.
                         </p>
-                        <p class="desc text-justify">
-                            Parents or guardians of students who are under the age of 18 on the registration
-                            date must complete the registration form.
-                        </p>
-                        <p class="desc text-justify">
-                            The candidate must have scored 60% or more in their last academic
-                            examination.
-                        </p>
+
                         <p class="desc text-justify">
                             For the academic year 2023–2024, the scholarship amount will be awarded to the
-                            student who has scored at least 70% in the scholarship exam.
+                            student who has scored 70% or Above in the scholarship exam.
                         </p>
                         <p class="desc text-justify">
                             The sum of the scholarship amount will be deposited right into the student's account, as
                             we believe in complete transparency.
                         </p>
-                        <p class="desc text-justify">
-                            The students who fit into the three categories specified by the institute will be listed on
-                            the website page following the exam.
-                        </p>
+
                         <p class="desc text-justify">
                             Each sponsor is required to make a direct deposit into the scholar's account in the
-                            criteria of the amount set by the organization.
+                            criteria of the amount set by the AVS.
                         </p>
                         <p class="desc text-justify">
                             The details of the sponsor and scholar both will be given to them, respectively, by the
-                            organization.
+                            AVS.
                         </p>
                     </div>
                 </div>
@@ -288,17 +278,15 @@
                     <div class="sec-title mb-46 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms"
                         style="visibility: visible; animation-duration: 2000ms; animation-delay: 300ms; animation-name: fadeInUp;">
                         <h2 class="title mb-15 sm-mb-5">Documents required for scholarship exam</h2>
+
                         <p class="desc text-justify">
-                            <strong>(1) Copy of last year’s annual marksheet of the candidate</strong>
+                            <strong>(1) Passport size photograph of the student</strong>
                         </p>
                         <p class="desc text-justify">
-                            <strong>(2) Passport size photograph of the candidate</strong>
+                            <strong>(2) ID proof of student</strong>
                         </p>
                         <p class="desc text-justify">
-                            <strong>(3) ID proof of candidate</strong>
-                        </p>
-                        <p class="desc text-justify">
-                            <strong>(4) Copy of Aadhar card of candidate</strong>
+                            <strong>(3) Copy of Aadhar card of student</strong>
                         </p>
                     </div>
                 </div>

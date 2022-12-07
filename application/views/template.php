@@ -249,9 +249,8 @@
                             </li>
                             <li>
                                 <i class="flaticon-location"></i>
-                                <div class="desc"><strong>Ahmedabad :</strong> 702, Yash Aqua, nr. Vijay Cross Road,
-                                    Navrangpura,
-                                    Ahmedabad, Gujarat, India</div>
+                                <div class="desc"><strong>Ahmedabad :</strong> P-1602, Iscon platinium SP ring road
+                                </div>
                             </li>
                         </ul>
                     </div>

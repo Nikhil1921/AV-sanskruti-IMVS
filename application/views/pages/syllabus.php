@@ -5,7 +5,7 @@
 
         <div class="row">
             <div class="col-12">
-                <h2 class="text-center mt-5">For Junior Candidates</h2>
+                <h2 class="text-center mt-5">For Junior Students</h2>
                 <div class="row justify-content-center ">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="volunteers_form">
@@ -129,7 +129,7 @@
                     </div>
                 </div>
 
-                <h2 class="mt-5 text-center">For Senior Candidates</h2>
+                <h2 class="mt-5 text-center">For Senior Students</h2>
                 <div class="row justify-content-center">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="volunteers_form">

@@ -2,7 +2,7 @@
 <div class="main-content">
     <div class="rs-slider style1">
         <div class="rs-carousel owl-carousel" data-loop="true" data-items="1" data-margin="0" data-autoplay="true"
-            data-hoverpause="true" data-interval="1000" data-autoplay-timeout="2000" data-smart-speed="800"
+            data-hoverpause="true" data-interval="4000" data-autoplay-timeout="4000" data-smart-speed="800"
             data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1"
             data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="1"
             data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="1"
@@ -21,7 +21,7 @@
                     <div class="sec-title wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms"
                         style="visibility: visible; animation-duration: 2000ms; animation-delay: 300ms; animation-name: fadeInUp;">
                         <h2 class="title text-color">Why is scholarship important?</h2>
-                        <p>To Empower and Educate the deserving young candidates in India by awarding
+                        <p>To Empower and Educate the deserving young students in India by awarding
                             them
                             scholarships to motivate them for a great future of the nation.
                         </p>
