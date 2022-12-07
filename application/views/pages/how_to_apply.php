@@ -206,9 +206,9 @@
                             <li>Now you have to log in with your registered email Id.
                                 (If you are not registered then first register yourself using your email
                                 ID/Gmail account.)</li>
-                            <li>After clicking that button you will be redirected to <a
+                            <!-- <li>After clicking that button you will be redirected to <a
                                     href="http://pureuniverse.live/">http://pureuniverse.live/</a>
-                                website for the Application Form.</li>
+                                website for the Application Form.</li> -->
                             <li>Fill in all the required details very carefully and correctly.</li>
                             <li>Upload all the required documents in the correct format.</li>
                             <li>Now you have to submit your application form.</li>
