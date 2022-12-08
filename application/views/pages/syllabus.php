@@ -108,11 +108,14 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="volunteers_form">
-                            <h4>This scholarship program is designed for students in Std. XII in science and commerce
+                            <h4>This is a scholarship program for students currently in Std. XII Commerce and Science
+                                (2022-2023) who will be enrolled in the graduation program (2023-2024) the following
+                                academic year.
+                            </h4>
+                            <h5>This scholarship program is designed for students in Std. XII in science and commerce
                                 who
                                 have a family income of less than Rs. 8 lakh and desire to study pharmacy, MBA, CA, CS,
-                                computer science, medicine, or engineering
-                            </h4>
+                                computer science, medicine, or engineering.</h5>
                             <h3 class="mb-2"><strong>NOTE:-</strong></h3>
                             <h5 class="mb-0">The syllabus will be updated in the first week of April, and the exam will
                                 be held on
