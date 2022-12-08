@@ -247,11 +247,11 @@
 
                         <p class="desc text-justify">
                             Each sponsor is required to make a direct deposit into the scholar's account in the
-                            criteria of the amount set by the AVS.
+                            criteria of the amount set by the AVSV.
                         </p>
                         <p class="desc text-justify">
                             The details of the sponsor and scholar both will be given to them, respectively, by the
-                            AVS.
+                            AVSV.
                         </p>
                     </div>
                 </div>
