@@ -9,10 +9,21 @@
                 <div class="row justify-content-center ">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="volunteers_form">
-                            <h4>This is a scholarship program for students who are now in grades VI through XI
-                                (2022-2023) and will be in grades VII through XII (2023-2024) the following
-                                academic year.
+                            <h4>
+                                Every Indian student
+                                entering Std. VII to XII in the upcoming academic year 2023-2024 is
+                                eligible to take the National Scholarship online exam on January 26; i.e. Vasant
+                                Panchami. The
+                                organisation's major goal is to ensure that its scholars never experience financial
+                                hurdles in their
+                                life growth and that they create a bright future for themselves and their families.
+
                             </h4>
+                            <h5>
+                                This scholarship program is open to children from families with an annual income of less
+                                than
+                                Rs 6,00,000.
+                            </h5>
                             <h5>Based on their study sequence and general knowledge of the subjects, students of any
                                 standard will be given a 100-mark MCQ-based question paper for Math, Science, and
                                 English
