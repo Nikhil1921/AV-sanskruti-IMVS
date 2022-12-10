@@ -1,16 +1,6 @@
 @charset "utf-8";
 
-/** 
-*
-* -----------------------------------------------------------------------------
-*
-* Template : Educavo - Education HTML Template 
-* Author : rs-theme
-* Author URI : http://www.rstheme.com/
-*
-* -----------------------------------------------------------------------------
-*
-**/ 
+
 
 /* Important CSS */
 .rs-degree.style1 .degree-wrap .content-part,
@@ -2195,6 +2185,9 @@
         font-size: 36px;
         line-height: 46px;
     }
+    .display-done {
+        display: block !important;
+    }
     .pr-183 {
         padding-right: 0;
     }
@@ -2799,6 +2792,9 @@
     .rs-banner.style11 .icons-spiner .spine2 img {
         width: 70px;
     } 
+    .display-done {
+        display: block !important;
+    }
     .rs-banner.style11 .icons-spiner .circle img {
         width: 70px;
     }
@@ -3111,6 +3107,9 @@
     .rs-popular-courses.style6 .sec-title6 .title{
         font-size: 24px;
         line-height: 34px;
+    }
+    .display-done {
+        display: block !important;
     }
     .sec-title3 .title.title3 {
         font-size: 29px;
@@ -3953,6 +3952,9 @@
     }
     .step-title {
         text-align: center !important;
+    }
+    .display-done {
+        display: block !important;
     }
     .displaytitlen
     {

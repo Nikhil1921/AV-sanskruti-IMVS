@@ -123,6 +123,12 @@
                                             <li>
                                                 <?= anchor('contact', 'Contact'); ?>
                                             </li>
+                                            <li class="btn-part display-done">
+                                                <a class="apply-btn" href="javascript:;" data-toggle="modal"
+                                                    data-target="#registerModal">
+                                                    Apply For Scholarship
+                                                </a>
+                                            </li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -249,7 +255,8 @@
                             </li>
                             <li>
                                 <i class="flaticon-location"></i>
-                                <div class="desc"><strong>Ahmedabad :</strong> P-1602, Iscon platinium SP ring road
+                                <div class="desc"><strong>Ahmedabad :</strong> P-1602, Iscon platinium SP ring
+                                    road,Bopal,Ahmedabad - 380058
                                 </div>
                             </li>
                         </ul>

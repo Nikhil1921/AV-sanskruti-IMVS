@@ -16295,3 +16295,7 @@ form.white-popup-block li, form.white-popup-block-small li {
   list-style: disc;
   text-align: justify;
 }
+
+.display-done {
+  display: none !important;
+}
