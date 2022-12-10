@@ -2188,6 +2188,9 @@
     .display-done {
         display: block !important;
     }
+    .apply-btn {
+    background: #307abd;
+    }
     .pr-183 {
         padding-right: 0;
     }
@@ -2795,6 +2798,9 @@
     .display-done {
         display: block !important;
     }
+    .apply-btn {
+    background: #307abd;
+    }
     .rs-banner.style11 .icons-spiner .circle img {
         width: 70px;
     }
@@ -3110,6 +3116,9 @@
     }
     .display-done {
         display: block !important;
+    }
+    .apply-btn {
+    background: #307abd;
     }
     .sec-title3 .title.title3 {
         font-size: 29px;
@@ -3956,6 +3965,9 @@
     .display-done {
         display: block !important;
     }
+    .apply-btn {
+    background: #307abd;
+    }
     .displaytitlen
     {
     display:none;
@@ -3990,5 +4002,8 @@
 }
 .stepimg.left::after {
 	left: 12px;
+}
+.apply-btn {
+    background: #307abd;
 }
   }
