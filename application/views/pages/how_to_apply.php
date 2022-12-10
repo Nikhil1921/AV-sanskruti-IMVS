@@ -6,7 +6,7 @@
             <h2 class="title purple-color">Process</h2>
         </div>
         <div class="row">
-            <div class="col-lg-3 md-mb-30">
+            <div class="col-lg-4 md-mb-30">
                 <div class="services-item">
                     <div class="services-image">
                         <div class="services-icons">
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 md-mb-30">
+            <div class="col-lg-4 md-mb-30">
                 <div class="services-item">
                     <div class="services-image">
                         <div class="services-icons">
@@ -42,7 +42,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4 md-mb-30">
                 <div class="services-item">
                     <div class="services-image">
                         <div class="services-icons">
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-5 mt-5 md-mb-30">
                 <div class="services-item">
                     <div class="services-image">
                         <div class="services-icons">
@@ -70,9 +70,38 @@
                             <div class="services-title">
                                 <h2 class="title">(3) Scholarship</h2>
                             </div>
-                            <p class="text">
-                                students who have secured 70% or more will be shortlisted for the scholarship.
-                            </p>
+                            <ul>
+                                <li><i class="fa fa-bullseye bulet_color" aria-hidden="true"></i> &nbsp;<strong>The AVSV
+                                        Scholarship Award Amount is divided into the following categories.
+                                    </strong>
+                                </li>
+                            </ul>
+                            <div class="table-responsive text-center mt-4">
+                                <table class="table table-bordered table-striped product-table">
+                                    <tbody>
+                                        <tr class="bg_first">
+                                            <td>A</td>
+                                            <td>70% to 80%</td>
+                                            <td>Go head</td>
+                                        </tr>
+                                        <tr class="bg_second">
+                                            <td>B</td>
+                                            <td>80% to 90%</td>
+                                            <td>Keep it up</td>
+                                        </tr>
+                                        <tr class="bg_first">
+                                            <td>C</td>
+                                            <td>90% to 95%</td>
+                                            <td>Scholar+</td>
+                                        </tr>
+                                        <tr class="bg_second">
+                                            <td>D</td>
+                                            <td>More than 95%</td>
+                                            <td>Nation star</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>

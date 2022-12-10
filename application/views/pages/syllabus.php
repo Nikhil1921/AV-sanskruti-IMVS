@@ -71,7 +71,7 @@
                                 <li><i class="fa fa-bullseye bulet_color" aria-hidden="true"></i> &nbsp;The exam time
                                     will be <strong>45 minutes</strong> long.
                                 </li>
-                                <li><i class="fa fa-bullseye bulet_color" aria-hidden="true"></i> &nbsp;<strong>The AVSV
+                                <!-- <li><i class="fa fa-bullseye bulet_color" aria-hidden="true"></i> &nbsp;<strong>The AVSV
                                         Scholarship Award Amount is divided into the following categories.
                                     </strong>
                                     <div class="table-responsive text-center mt-4">
@@ -100,7 +100,7 @@
                                             </tbody>
                                         </table>
                                     </div>
-                                </li>
+                                </li> -->
                                 <li><i class="fa fa-bullseye bulet_color" aria-hidden="true"></i> &nbsp;The AVSV
                                     Scholarship Online Exam results will be posted on the website on
                                     <strong>January 31, 2023.</strong>
