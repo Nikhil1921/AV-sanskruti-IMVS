@@ -17,6 +17,9 @@ if($("#register-form").length > 0)
             state: "required",
             city: "required",
             password: "required",
+            password_confirm: {
+                equalTo: "#password"
+            },
             terms: "required",
             name: {
                 required: true,
@@ -32,6 +35,12 @@ if($("#register-form").length > 0)
                 maxlength: 255
             },
             mobile: {
+                required: true,
+                minlength: 10,
+                maxlength: 10,
+                digits: true
+            },
+            mobile_alter: {
                 required: true,
                 minlength: 10,
                 maxlength: 10,
@@ -294,6 +303,9 @@ function inWords (num) {
     return str;
 }
 
-document.getElementById('amount').onkeyup = function () {
-    document.getElementById('words').innerHTML = inWords(document.getElementById('amount').value);
-};
+if(document.getElementById('amount').length)
+{
+    document.getElementById('amount').onkeyup = function () {
+        document.getElementById('words').innerHTML = inWords(document.getElementById('amount').value);
+    };
+}

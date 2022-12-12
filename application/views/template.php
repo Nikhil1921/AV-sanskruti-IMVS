@@ -1,4 +1,4 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); $assets_version = "?v=1.0.1" ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,8 +22,8 @@
     <?= link_tag('assets/css/magnific-popup.css', 'stylesheet', 'text/css') ?>
     <?= link_tag('assets/css/rsmenu-main.css', 'stylesheet', 'text/css') ?>
     <?= link_tag('assets/css/rs-spacing.css', 'stylesheet', 'text/css') ?>
-    <?= link_tag('assets/css/style.css', 'stylesheet', 'text/css') ?>
-    <?= link_tag('assets/css/responsive.css', 'stylesheet', 'text/css') ?>
+    <?= link_tag('assets/css/style.css'.$assets_version, 'stylesheet', 'text/css') ?>
+    <?= link_tag('assets/css/responsive.css'.$assets_version, 'stylesheet', 'text/css') ?>
 </head>
 
 <body class="defult-home">
@@ -70,15 +70,7 @@
             <div class="topbar-area desktop-none dark-parimary-bg display-block">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-7 col-7">
-                            <ul class="topbar-contact">
-                                <li>
-                                    <i class="flaticon-email"></i>
-                                    <a href="mailto:support@avsanskruti.com">support@avsanskruti.com</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-5 col-5 text-right">
+                        <div class="col-md-12">
                             <ul class="topbar-right">
                                 <li class="btn-part">
                                     <a class="apply-btn" href="javascript:;" data-toggle="modal"
@@ -324,13 +316,13 @@
     <?= script('assets/js/jquery.magnific-popup.min.js') ?>
     <?= script('assets/js/plugins.js') ?>
     <?= script('assets/js/contact.form.js') ?>
-    <?= script('assets/js/main.js') ?>
+    <?= script('assets/js/main.js'.$assets_version) ?>
     <?= script("assets/js/blockui.js") ?>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/additional-methods.min.js"></script>
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-    <?= script('assets/js/script.js') ?>
+    <?= script('assets/js/script.js'.$assets_version) ?>
 </body>
 
 </html>

@@ -1849,9 +1849,11 @@
     .full-width-header .rs-header .topbar-area .topbar-right li a.apply-btn {
         color: #ffffff;
         background: #307abd;
-        padding: 12px 12px;
+        padding: 15px 10px;
         display: inline-block;
-        font-size: 14px;
+        font-size: 22px;
+        width: 100%;
+        text-align: center;
     }
 
     .display-block {

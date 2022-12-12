@@ -67,25 +67,32 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <div class="form-group">
-                                <label>Mobile Number:</label>
-                                <input class="form-control" placeholder="Enter Mobile*" maxlength="10" name="mobile"
+                                <label>Mobile Number 1:</label>
+                                <input class="form-control" placeholder="Enter Mobile 1*" maxlength="10" name="mobile"
                                     type="text">
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>Mobile Number 2:</label>
+                                <input class="form-control" placeholder="Enter Mobile 2*" maxlength="10"
+                                    name="mobile_alter" type="text">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
                             <div class="form-group">
                                 <label>Password:</label>
-                                <input class="form-control" placeholder="Enter Password*" name="password"
+                                <input class="form-control" placeholder="Enter Password*" name="password" id="password"
                                     type="password">
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <div class="form-group">
                                 <label>Confirm Password:</label>
-                                <input class="form-control" placeholder="Enter Confirm Password*" name="password"
-                                    type="password">
+                                <input class="form-control" placeholder="Enter Confirm Password*"
+                                    name="password_confirm" type="password">
                             </div>
                         </div>
 

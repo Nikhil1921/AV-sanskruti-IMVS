@@ -70,16 +70,17 @@ class Main_model extends MY_Model
 	public function register()
 	{	
 		$post = [
-			'name'      => $this->input->post('name'),
-			'email'     => $this->input->post('email'),
-			'address'   => $this->input->post('address'),
-			'country'   => d_id($this->input->post('country')),
-			'state'     => d_id($this->input->post('state')),
-			'city'      => d_id($this->input->post('city')),
-			'dob'       => date('Y-m-d'),
-			'mobile'    => $this->input->post('mobile'),
-			'password'  => my_crypt($this->input->post('password')),
-			'exam_cat'  => d_id($this->input->post('exams'))
+			'name'      	=> $this->input->post('name'),
+			'email'     	=> $this->input->post('email'),
+			'address'   	=> $this->input->post('address'),
+			'country'   	=> d_id($this->input->post('country')),
+			'state'     	=> d_id($this->input->post('state')),
+			'city'      	=> d_id($this->input->post('city')),
+			'dob'       	=> date('Y-m-d'),
+			'mobile'    	=> $this->input->post('mobile'),
+			'mobile_alter'  => $this->input->post('mobile_alter'),
+			'password'  	=> my_crypt($this->input->post('password')),
+			'exam_cat'  	=> d_id($this->input->post('exams'))
 		];
 
 		$this->db->trans_start();
