@@ -125,13 +125,14 @@
                                                 <?= anchor('', 'Sharda Peeth sthal'); ?>
                                                 <ul class="sub-menu">
                                                     <li>
+                                                        <?= anchor('glimpse-of-sharda-peeth', 'A Glimpse of Sharda Peeth'); ?>
+                                                    </li>
+                                                    <li>
                                                         <?= anchor('sharda-peeth-historic-importance', 'Sharda Peeth Historic Importance'); ?>
                                                     </li>
                                                     <li>
-                                                        <?= anchor('glimpse-of-sharda-peeth', 'A Glimpse of Sharda Peeth'); ?>
+                                                        <?= anchor('saraswati-puja-mahayajnas', 'Saraswati Puja Mahayajnas'); ?>
                                                     </li>
-                                                    <div class="sub-menu-close"><i class="fa fa-times"
-                                                            aria-hidden="true"></i>Close</div>
                                                 </ul>
                                                 <span class="rs-menu-parent"><i class="fa fa-angle-down"
                                                         aria-hidden="true"></i></span>

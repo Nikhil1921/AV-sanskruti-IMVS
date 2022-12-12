@@ -103,6 +103,14 @@ class Pages extends MY_Controller {
 
 		return $this->template->load('template', 'pages/glimpse_of_sharda_peeth', $data);
 	}
+    public function saraswati_puja_mahayajnas()
+	{
+		$data['title'] = 'Saraswati Puja Mahayajnas';
+		$data['name'] = 'saraswati_puja_mahayajnas';
+		$data['breadcrumbs'] = 'Saraswati Puja Mahayajnas';
+
+		return $this->template->load('template', 'pages/saraswati_puja_mahayajnas', $data);
+	}
 
 	
 }
