@@ -1846,6 +1846,18 @@
         display: none;
     }
 
+    .full-width-header .rs-header .topbar-area .topbar-right li a.apply-btn {
+        color: #ffffff;
+        background: #307abd;
+        padding: 12px 12px;
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .display-block {
+        display: block !important;
+    }
+
     .full-width-header .rs-header .menu-area .rs-menu-area {
         display: block !important;
     }

@@ -42,19 +42,43 @@
             <div class="topbar-area dark-parimary-bg">
                 <div class="container">
                     <div class="row y-middle">
-                        <div class="col-md-7">
+                        <div class="col-md-7 col-sm-8 col-8">
                             <ul class="topbar-contact">
                                 <li>
                                     <i class="flaticon-email"></i>
                                     <a href="mailto:support@avsanskruti.com">support@avsanskruti.com</a>
                                 </li>
-                                <li>
+                                <li class="address-none">
                                     <i class="flaticon-location"></i>
                                     401 Orchid,Socorbo Gardens Socorbo,Goa
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-md-5 text-right">
+                        <div class="col-md-5 col-sm-4 col-4 text-right">
+                            <ul class="topbar-right">
+                                <li class="btn-part">
+                                    <a class="apply-btn" href="javascript:;" data-toggle="modal"
+                                        data-target="#registerModal">
+                                        Apply For Scholarship
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="topbar-area desktop-none dark-parimary-bg display-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 col-7">
+                            <ul class="topbar-contact">
+                                <li>
+                                    <i class="flaticon-email"></i>
+                                    <a href="mailto:support@avsanskruti.com">support@avsanskruti.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5 col-5 text-right">
                             <ul class="topbar-right">
                                 <li class="btn-part">
                                     <a class="apply-btn" href="javascript:;" data-toggle="modal"
@@ -77,6 +101,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-lg-10 text-right">
                             <div class="rs-menu-area">
                                 <div class="main-menu">
@@ -122,12 +147,6 @@
                                             </li>
                                             <li>
                                                 <?= anchor('contact', 'Contact'); ?>
-                                            </li>
-                                            <li class="btn-part display-done">
-                                                <a class="apply-btn" href="javascript:;" data-toggle="modal"
-                                                    data-target="#registerModal">
-                                                    Apply For Scholarship
-                                                </a>
                                             </li>
                                         </ul>
                                     </nav>
