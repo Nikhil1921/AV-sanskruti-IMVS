@@ -1,5 +1,20 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
+<div class="rs-breadcrumbs breadcrumbs-overlay">
+    <div class="breadcrumbs-img">
+        <?= img('assets/images/breadcrumb/contact.png') ?>
+    </div>
+    <div class="breadcrumbs-text white-color">
+        <h1 class="page-title">Contact</h1>
+        <ul>
+            <li>
+                <a class="active" href="index.php">Home</a>
+            </li>
+            <li>Contact</li>
+        </ul>
+    </div>
+</div>
+
 <!-- Contact Section Start -->
 <div class="contact-page-section pt-100 pb-100 md-pt-70 md-pb-70">
     <div class="container">

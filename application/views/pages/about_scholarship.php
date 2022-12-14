@@ -1,4 +1,18 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<div class="rs-breadcrumbs breadcrumbs-overlay">
+    <div class="breadcrumbs-img">
+        <?= img('assets/images/breadcrumb/about.png') ?>
+    </div>
+    <div class="breadcrumbs-text white-color">
+        <h1 class="page-title">About Scholarship</h1>
+        <ul>
+            <li>
+                <a class="active" href="index.php">Home</a>
+            </li>
+            <li>About Scholarship</li>
+        </ul>
+    </div>
+</div>
 <div class="rs-about style9 pt-80 pb-50 md-pt-70 md-pb-70">
     <div class="container">
         <div class="row align-items-center">

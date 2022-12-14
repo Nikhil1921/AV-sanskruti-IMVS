@@ -144,10 +144,15 @@
                             family's financial circumstances criteria are out of the question. We can give
                             a bit
                             of additional scholarship money to any kid who is not financially capable so that
-                            they can study better. A campaign worth over 1000 crore rupees is planned for
+                            they can study better. A campaign worth over 1000 crore rupees is targeted for
                             the upcoming academic session of 2023-2024.
-
                         </p>
+                        <p class="desc font-size text-justify">
+                            At the same time, it is our main goal that every student knows and understands Sharda
+                            Shaktipeeth, Kashmir, which is Maa Saraswati's original place, and receives the infinite
+                            grace of Maa Saraswati to develop a beautiful personal life.
+                        </p>
+
                     </div>
                 </div>
             </div>

@@ -1,5 +1,20 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
+<div class="rs-breadcrumbs breadcrumbs-overlay">
+    <div class="breadcrumbs-img">
+        <?= img('assets/images/breadcrumb/shardha_peeth.png') ?>
+    </div>
+    <div class="breadcrumbs-text white-color">
+        <h1 class="page-title">Saraswati Puja Mahayajnas</h1>
+        <ul>
+            <li>
+                <a class="active" href="index.php">Home</a>
+            </li>
+            <li>Saraswati Puja Mahayajnas</li>
+        </ul>
+    </div>
+</div>
+
 <!-- <section class="profile-section orange-color pt-50 pb-50 md-pt-70 md-pb-70 loaded">
     <div class="container">
         <div class="row clearfix justify-content-center">

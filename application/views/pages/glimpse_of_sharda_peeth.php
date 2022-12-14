@@ -1,5 +1,20 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
+<div class="rs-breadcrumbs breadcrumbs-overlay">
+    <div class="breadcrumbs-img">
+        <?= img('assets/images/breadcrumb/shardha_peeth.png') ?>
+    </div>
+    <div class="breadcrumbs-text white-color">
+        <h1 class="page-title">A Glimpse of Sharda Peeth</h1>
+        <ul>
+            <li>
+                <a class="active" href="index.php">Home</a>
+            </li>
+            <li>A Glimpse of Sharda Peeth</li>
+        </ul>
+    </div>
+</div>
+
 <div id="rs-about" class="rs-about style1 pt-50 pb-50 md-pt-70 md-pb-70">
     <div class="container">
         <div class="row justify-content-center ">

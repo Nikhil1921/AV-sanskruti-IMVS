@@ -14,7 +14,7 @@ class Pages extends MY_Controller {
 	{
 		$data['title'] = 'About Scholarship';
 		$data['name'] = 'about_scholarship';
-		$data['breadcrumbs'] = 'About Scholarship';
+		// $data['breadcrumbs'] = 'About Scholarship';
 
 		return $this->template->load('template', 'pages/about_scholarship', $data);
 	}
@@ -23,7 +23,7 @@ class Pages extends MY_Controller {
 	{
 		$data['title'] = 'Why Av Sanskruti Sanstha';
 		$data['name'] = 'why_av_sanskruti_sanstha';
-		$data['breadcrumbs'] = 'Why Av Sanskruti Sanstha';
+		// $data['breadcrumbs'] = 'Why Av Sanskruti Sanstha';
 
 		return $this->template->load('template', 'pages/why_av_sanskruti_sanstha', $data);
 	}
@@ -32,7 +32,7 @@ class Pages extends MY_Controller {
 	{
 		$data['title'] = 'Syllabus';
 		$data['name'] = 'syllabus';
-		$data['breadcrumbs'] = 'Syllabus';
+		// $data['breadcrumbs'] = 'Syllabus';
 
 		return $this->template->load('template', 'pages/syllabus', $data);
 	}
@@ -66,7 +66,7 @@ class Pages extends MY_Controller {
 	{
 		$data['title'] = 'How To Apply';
 		$data['name'] = 'how_to_apply';
-		$data['breadcrumbs'] = 'How To Apply';
+		// $data['breadcrumbs'] = 'How To Apply';
 
 		return $this->template->load('template', 'pages/how_to_apply', $data);
 	}
@@ -75,7 +75,7 @@ class Pages extends MY_Controller {
 	{
 		$data['title'] = 'Contact';
 		$data['name'] = 'contact';
-		$data['breadcrumbs'] = 'Contact';
+		// $data['breadcrumbs'] = 'Contact';
 
 		return $this->template->load('template', 'pages/contact', $data);
 	}
@@ -83,7 +83,7 @@ class Pages extends MY_Controller {
 	{
 		$data['title'] = 'Sharda Peeth Sthal';
 		$data['name'] = 'sharda_peeth_sthal';
-		$data['breadcrumbs'] = 'Sharda Peeth Sthal';
+		// $data['breadcrumbs'] = 'Sharda Peeth Sthal';
 
 		return $this->template->load('template', 'pages/sharda_peeth_sthal', $data);
 	}
@@ -91,7 +91,7 @@ class Pages extends MY_Controller {
 	{
 		$data['title'] = 'Sharda Peeth Historic Importance';
 		$data['name'] = 'sharda_peeth_historic_importance';
-		$data['breadcrumbs'] = 'Sharda Peeth Historic Importance';
+		// $data['breadcrumbs'] = 'Sharda Peeth Historic Importance';
 
 		return $this->template->load('template', 'pages/sharda_peeth_historic_importance', $data);
 	}
@@ -99,7 +99,7 @@ class Pages extends MY_Controller {
 	{
 		$data['title'] = 'A Glimpse of Sharda Peeth';
 		$data['name'] = 'glimpse_of_sharda_peeth';
-		$data['breadcrumbs'] = 'A Glimpse of Sharda Peeth';
+		// $data['breadcrumbs'] = 'A Glimpse of Sharda Peeth';
 
 		return $this->template->load('template', 'pages/glimpse_of_sharda_peeth', $data);
 	}
@@ -107,7 +107,7 @@ class Pages extends MY_Controller {
 	{
 		$data['title'] = 'Saraswati Puja Mahayajnas';
 		$data['name'] = 'saraswati_puja_mahayajnas';
-		$data['breadcrumbs'] = 'Saraswati Puja Mahayajnas';
+		// $data['breadcrumbs'] = 'Saraswati Puja Mahayajnas';
 
 		return $this->template->load('template', 'pages/saraswati_puja_mahayajnas', $data);
 	}

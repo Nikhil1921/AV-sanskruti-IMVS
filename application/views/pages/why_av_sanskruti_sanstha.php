@@ -1,4 +1,19 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<div class="rs-breadcrumbs breadcrumbs-overlay">
+    <div class="breadcrumbs-img">
+        <?= img('assets/images/breadcrumb/av_sanskruti.png') ?>
+    </div>
+    <div class="breadcrumbs-text white-color">
+        <h1 class="page-title">Why AV Sanskruti Sanstha</h1>
+        <ul>
+            <li>
+                <a class="active" href="index.php">Home</a>
+            </li>
+            <li>Why AV Sanskruti Sanstha</li>
+        </ul>
+    </div>
+</div>
+
 <div class="rs-about style1 pt-100 pb-50 md-pt-70 md-pb-70">
     <div class="container">
         <div class="row align-items-center">
@@ -82,8 +97,8 @@
                             student in an open and transparent manner. AVSV plays an important role as a
                             mediator, and we will look for all the scholars of the country and send them
                             forward, and according to the criteria of our fixed amount, we have to provide
-                            financial support to all of them. You have to directly deposit the amount directly
-                            into the student's account. As a result, we do not accept any amount.
+                            financial support to all of them. You have to deposit the amount directly
+                            into the student's account.
 
                         </p>
                     </div>
@@ -108,9 +123,13 @@
                             Scholarships mean that talented students must be supported, even if their
                             family's financial circumstances criteria are out of the question. We can give a bit
                             of additional scholarship money to any kid who is not financially capable so that
-                            they can study better. A campaign worth over 1000 crore rupees is planned for
+                            they can study better. A campaign worth over 1000 crore rupees is targeted for
                             the upcoming academic session of 2023-2024.
-
+                        </p>
+                        <p class="desc text-justify font-size">
+                            At the same time, it is our main goal that every student knows and understands Sharda
+                            Shaktipeeth, Kashmir, which is Maa Saraswati's original place, and receives the infinite
+                            grace of Maa Saraswati to develop a beautiful personal life.
                         </p>
                     </div>
                 </div>

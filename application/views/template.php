@@ -50,7 +50,7 @@
                                 </li>
                                 <li class="address-none">
                                     <i class="flaticon-location"></i>
-                                    401 Orchid,Socorbo Gardens Socorbo,Goa
+                                    For Indian Students
                                 </li>
                             </ul>
                         </div>
@@ -222,6 +222,8 @@
                                 <i class="flaticon-call"></i>
                                 <div class="desc">
                                     <a href="tel:18002022002">18002022002</a>
+                                    <br>
+                                    <a href="tel:6351052257">6351052257</a>
                                 </div>
                             </li>
                             <li>

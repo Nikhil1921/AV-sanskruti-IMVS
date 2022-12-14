@@ -1,5 +1,20 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
+<div class="rs-breadcrumbs breadcrumbs-overlay">
+    <div class="breadcrumbs-img">
+        <?= img('assets/images/breadcrumb/how_to_apply.png') ?>
+    </div>
+    <div class="breadcrumbs-text white-color">
+        <h1 class="page-title">How To Apply</h1>
+        <ul>
+            <li>
+                <a class="active" href="index.php">Home</a>
+            </li>
+            <li>How To Apply</li>
+        </ul>
+    </div>
+</div>
+
 <div id="rs-services" class="rs-services  home12-style">
     <div class="container">
         <div class="sec-title4 text-center mb-50">
@@ -68,7 +83,7 @@
                         </div>
                         <div class="services-text">
                             <div class="services-title">
-                                <h2 class="title">(3) Scholarship</h2>
+                                <h2 class="title">(4) Scholarship</h2>
                             </div>
                             <ul>
                                 <li><i class="fa fa-bullseye bulet_color" aria-hidden="true"></i> &nbsp;<strong>The AVSV
@@ -81,22 +96,22 @@
                                     <tbody>
                                         <tr class="bg_first">
                                             <td>A</td>
-                                            <td>70% to 80%</td>
+                                            <td>75% to 79.99%</td>
                                             <td>Go head</td>
                                         </tr>
                                         <tr class="bg_second">
                                             <td>B</td>
-                                            <td>80% to 90%</td>
+                                            <td>80% to 84.99%</td>
                                             <td>Keep it up</td>
                                         </tr>
                                         <tr class="bg_first">
                                             <td>C</td>
-                                            <td>90% to 95%</td>
+                                            <td>85% to 89.99%</td>
                                             <td>Scholar+</td>
                                         </tr>
                                         <tr class="bg_second">
                                             <td>D</td>
-                                            <td>More than 95%</td>
+                                            <td>More than 90%</td>
                                             <td>Nation star</td>
                                         </tr>
                                     </tbody>
@@ -267,7 +282,7 @@
 
                         <p class="desc text-justify">
                             For the academic year 2023–2024, the scholarship amount will be awarded to the
-                            student who has scored 70% or Above in the scholarship exam.
+                            student who has scored 75% or Above in the scholarship exam.
                         </p>
                         <p class="desc text-justify">
                             The sum of the scholarship amount will be deposited right into the student's account, as
