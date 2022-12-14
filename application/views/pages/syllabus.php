@@ -152,6 +152,36 @@
                                         </tbody>
                                     </table>
                                 </div>
+                                <div class="table-responsive text-center mt-4">
+                                    <table class="table table-bordered table-striped product-table">
+                                        <tbody>
+                                            <tr class="bg_first">
+                                                <th>Percentage</th>
+                                                <th>Engineer/Pharmacy</th>
+                                                <th>Medical</th>
+                                                <th>CA/CS</th>
+                                            </tr>
+                                            <tr class="bg_second">
+                                                <td>80% to 84.99%</td>
+                                                <td>Rs 75,000 per annum</td>
+                                                <td>Rs 2,00,000 per annum</td>
+                                                <td>Rs 50,000 per annum</td>
+                                            </tr>
+                                            <tr class="bg_first">
+                                                <td>85% to 89.99%</td>
+                                                <td>Rs 1,00,000 per annum</td>
+                                                <td>Rs 2,50,000 per annum</td>
+                                                <td>Rs 75,000 per annum</td>
+                                            </tr>
+                                            <tr class="bg_second">
+                                                <td>Above 90%</td>
+                                                <td>Rs 1,25,000 per annum</td>
+                                                <td>Rs 3,00,000 per annum</td>
+                                                <td>Rs 1,00,000 per annum</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
 
 
                             </ul>
