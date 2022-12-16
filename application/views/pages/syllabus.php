@@ -159,7 +159,7 @@
                                                 <th>Percentage</th>
                                                 <th>Engineer/Pharmacy</th>
                                                 <th>Medical</th>
-                                                <th>CA/CS</th>
+                                                <th>CA/CS/MBA</th>
                                             </tr>
                                             <tr class="bg_second">
                                                 <td>80% to 84.99%</td>
