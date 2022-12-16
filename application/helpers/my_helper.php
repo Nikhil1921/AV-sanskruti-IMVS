@@ -79,7 +79,7 @@ if ( ! function_exists('send_email'))
 		$CI->load->library('email');
 		$CI->email->clear(TRUE);
 		$CI->email->set_newline("\r\n");
-		$CI->email->from("admin@pureuniverse.live", APP_NAME);
+		$CI->email->from("support@avsanskruti.com", APP_NAME);
 		$CI->email->to($email);
 		$CI->email->subject($subject);
 		$CI->email->message($message);
