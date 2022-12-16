@@ -84,11 +84,11 @@ class Main_model extends MY_Model
 		];
 
 		$this->db->trans_start();
-		// $this->db->insert('register', $post);
-		// $auth = $this->db->insert_id();
+		$this->db->insert('register', $post);
+		$auth = $this->db->insert_id();
 		
 		$payment = [
-			// 'u_id'         => $auth,
+			'u_id'         => $auth,
 			'order_id'     => $this->input->post('order_id'),
 			'tracking_id'  => $this->input->post('payment_id'),
 			'bank_ref_no'  => $this->input->post('signature'),
@@ -100,7 +100,7 @@ class Main_model extends MY_Model
 			'exam_board'   => $this->input->post('board'),
 		];
 		
-        // $this->db->insert('payments', $payment);
+        $this->db->insert('payments', $payment);
         
 		$invoice['data'] = $this->main->get('exam_table', 'e_time, e_date', ['id' => $payment['exam']]);
 		$invoice['data']['language'] = $this->main->check('language', ['id' => $payment['exam_lang']], 'language');
@@ -115,7 +115,6 @@ class Main_model extends MY_Model
     		$message = $this->load->view('partials/'.$invoice['category']['email_template'], $invoice, true);
 
     		send_email($post['email'], $message, $subject);
-			return ['message' => "Registration not successfull. Try again later."];
 			return ['redirect' => base_url('thankyou')];
 		}else
 			return ['message' => "Registration not successfull. Try again later."];

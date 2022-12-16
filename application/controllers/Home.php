@@ -79,6 +79,15 @@ class Home extends MY_Controller {
         }
     }
 
+    // public function checkemail($send, $check=0)
+    // {
+    //     $subject = 'Registration details';
+    //     $message = $this->load->view('partials/'.$send, [], true);
+
+    //     if($check) send_email('densetek.nishant@gmail.com', $message, $subject);
+    //     else echo $message;
+    // }
+
 	protected $register = [
         [
             'field' => 'name',
