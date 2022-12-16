@@ -8,7 +8,7 @@
         <h1 class="page-title">How To Apply</h1>
         <ul>
             <li>
-                <a class="active" href="index.php">Home</a>
+                <?= anchor('', 'Home', 'class="active"'); ?>
             </li>
             <li>How To Apply</li>
         </ul>
@@ -32,8 +32,9 @@
                                 <h2 class="title">(1) Eligibility</h2>
                             </div>
                             <p class="text">
-                                This scholarship program is open to children from families with an annual income of less
-                                than Rs 6,00,000.
+                                This scholarship program is open to juniour students from families with an annual income
+                                of less than Rs 6,00,000 and for senior students from families with an annual income of
+                                less than Rs 8,00,000.
                             </p>
                         </div>
                     </div>
@@ -83,7 +84,7 @@
                         </div>
                         <div class="services-text">
                             <div class="services-title">
-                                <h2 class="title">(4) Scholarship</h2>
+                                <h2 class="title"> Scholarship</h2>
                             </div>
                             <ul>
                                 <li><i class="fa fa-bullseye bulet_color" aria-hidden="true"></i> &nbsp;<strong>The AVSV
@@ -113,6 +114,56 @@
                                             <td>D</td>
                                             <td>More than 90%</td>
                                             <td>Nation star</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 mt-5 md-mb-30">
+                <div class="services-item">
+                    <div class="services-image">
+                        <div class="services-icons">
+                            <img src="assets/images/13.png" alt="">
+                        </div>
+                        <div class="services-text">
+                            <div class="services-title">
+                                <h2 class="title">Scholarship</h2>
+                            </div>
+                            <ul>
+                                <li><i class="fa fa-bullseye bulet_color" aria-hidden="true"></i> &nbsp;<strong>The AVSV
+                                        Scholarship Award Amount is divided into the following categories.
+                                    </strong>
+                                </li>
+                            </ul>
+                            <div class="table-responsive text-center mt-4">
+                                <table class="table table-bordered table-striped product-table">
+                                    <tbody>
+                                        <tr class="bg_first">
+                                            <th>Percentage</th>
+                                            <th>Engineer/Pharmacy</th>
+                                            <th>Medical</th>
+                                            <th>CA/CS</th>
+                                        </tr>
+                                        <tr class="bg_second">
+                                            <td>80% to 84.99%</td>
+                                            <td>Rs 75,000 per annum</td>
+                                            <td>Rs 2,00,000 per annum</td>
+                                            <td>Rs 50,000 per annum</td>
+                                        </tr>
+                                        <tr class="bg_first">
+                                            <td>85% to 89.99%</td>
+                                            <td>Rs 1,00,000 per annum</td>
+                                            <td>Rs 2,50,000 per annum</td>
+                                            <td>Rs 75,000 per annum</td>
+                                        </tr>
+                                        <tr class="bg_second">
+                                            <td>Above 90%</td>
+                                            <td>Rs 1,25,000 per annum</td>
+                                            <td>Rs 3,00,000 per annum</td>
+                                            <td>Rs 1,00,000 per annum</td>
                                         </tr>
                                     </tbody>
                                 </table>

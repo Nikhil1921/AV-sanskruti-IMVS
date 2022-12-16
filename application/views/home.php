@@ -105,12 +105,10 @@
                         style="visibility: visible; animation-duration: 2000ms; animation-delay: 300ms; animation-name: fadeInUp;">
                         <h2 class="title mb-15 sm-mb-5">God cannot be everywhere, that's why he created philanthropist
                         </h2>
-                        <p class="desc">
-                            <strong>Volunteering is an easy and satisfying way to support a cause and make a difference
-                                in the
-                                world.</strong>
-                        </p>
-                        <ul class="volunteers_ul">
+                        <h4>Volunteering is an easy and satisfying way to support a cause and make a difference
+                            in the
+                            world.</h4>
+                        <!-- <ul class="volunteers_ul">
                             <li><i class="fa fa-bullseye bulet_color" aria-hidden="true"></i> &nbsp;Boost school and
                                 college
                                 applications</li>
@@ -119,7 +117,7 @@
                             <li><i class="fa fa-bullseye bulet_color" aria-hidden="true"></i> &nbsp;Gain community
                                 service hours
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>

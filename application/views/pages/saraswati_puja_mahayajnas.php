@@ -8,7 +8,7 @@
         <h1 class="page-title">Saraswati Puja Mahayajnas</h1>
         <ul>
             <li>
-                <a class="active" href="index.php">Home</a>
+                <?= anchor('', 'Home', 'class="active"'); ?>
             </li>
             <li>Saraswati Puja Mahayajnas</li>
         </ul>

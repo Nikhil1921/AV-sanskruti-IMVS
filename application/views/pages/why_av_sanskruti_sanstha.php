@@ -7,7 +7,7 @@
         <h1 class="page-title">Why AV Sanskruti Sanstha</h1>
         <ul>
             <li>
-                <a class="active" href="index.php">Home</a>
+                <?= anchor('', 'Home', 'class="active"'); ?>
             </li>
             <li>Why AV Sanskruti Sanstha</li>
         </ul>

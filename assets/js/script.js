@@ -125,7 +125,8 @@ const getStates = (select) => {
             $("#resigter-errors").html("<div class='text-danger'>Something not going good. Try again.</div>");
         },
         success: function(res) {
-            let states = '<option disabled selected> Select state</option>';
+            // let states = '<option disabled selected> Select state</option>';
+            let states = '';
             if (res.message.length > 0) {
                 $(res.message).each(function(k, v) {
                     states += `<option value="${v.id}">${v.name}</option>`;
@@ -153,7 +154,8 @@ const getCities = (select) => {
             $("#resigter-errors").html("<div class='text-danger'>Something not going good. Try again.</div>");
         },
         success: function(res) {
-            let cities = '<option disabled selected> Select city</option>';
+            // let cities = '<option disabled selected> Select city</option>';
+            let cities = '';
             if (res.message.length > 0) {
                 $(res.message).each(function(k, v) {
                     cities += `<option value="${v.id}">${v.name}</option>`;
@@ -187,7 +189,8 @@ const getPapers = (select) => {
             $("#resigter-errors").html("<div class='text-danger'>Something not going good. Try again.</div>");
         },
         success: function(res) {
-            let exams = '<option disabled selected>Select Exam Paper Date</option>';
+            let exams = '';
+            // let exams = '<option disabled selected>Select Exam Paper Date</option>';
             if (res.message.length > 0) {
                 $(res.message).each(function(k, v) {
                     exams += `<option value="${v.e_id}">${v.e_date}</option>`;
@@ -196,8 +199,9 @@ const getPapers = (select) => {
             } else
                 $("#exm_date").attr('readonly', true);
             $("#exm_date").html(exams);
-            $("#exam_lang").html('<option disabled selected>Select Exam Language</option>');
-            $("#exam_lang").attr('readonly', true);
+            getLang(document.getElementById('exm_date'))
+            // $("#exam_lang").html('<option disabled selected> Exam Language</option>');
+            // $("#exam_lang").attr('readonly', true);
         }
     });
 };
@@ -205,6 +209,13 @@ const getPapers = (select) => {
 const getLang = (select) => {
     let e_id = select.value;
     let dependent = $(select).data('dependent');
+
+    if (!e_id) {
+        $("#" + dependent).attr('readonly', true);
+        $("#" + dependent).html('<option disabled selected>Exam Language</option>');
+        return;
+    }
+
     $.ajax({
         url: `${base_url}home/getLang`,
         type: "GET",
@@ -215,7 +226,8 @@ const getLang = (select) => {
             $("#resigter-errors").html("<div class='text-danger'>Something not going good. Try again.</div>");
         },
         success: function(res) {
-            let langs = '<option disabled selected>Select Exam Language</option>';
+            // let langs = '<option disabled selected>Select Exam Language</option>';
+            let langs = '';
             if (res.message.length > 0) {
                 $(res.message).each(function(k, v) {
                     langs += `<option value="${v.lang_id}">${v.language}</option>`;
@@ -303,9 +315,9 @@ function inWords (num) {
     return str;
 }
 
-if(document.getElementById('amount').length)
+if ($("#amount").length)
 {
-    document.getElementById('amount').onkeyup = function () {
-        document.getElementById('words').innerHTML = inWords(document.getElementById('amount').value);
-    };
+    $("#amount").keyup(function() {
+        $("#words").html(inWords(this.value));
+    });
 }

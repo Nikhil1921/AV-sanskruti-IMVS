@@ -54,7 +54,7 @@ class Pages extends MY_Controller {
 			];
 
 			if($this->main->add($post, 'pledges'))
-				$response = ['status' => true, 'message' => "Data saved successfully."];
+				$response = ['status' => true, 'message' => "Thankyou for contribution."];
 			else
 				$response = ['status' => false, 'message' => "Some error occured."];
 			

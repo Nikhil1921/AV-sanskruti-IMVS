@@ -8,7 +8,7 @@
         <h1 class="page-title">Sharda Peeth Historic Importance</h1>
         <ul>
             <li>
-                <a class="active" href="index.php">Home</a>
+                <?= anchor('', 'Home', 'class="active"'); ?>
             </li>
             <li>Sharda Peeth Historic Importance</li>
         </ul>

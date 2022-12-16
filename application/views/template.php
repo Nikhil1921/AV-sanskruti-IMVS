@@ -1,4 +1,4 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); $assets_version = "?v=1.0.1" ?>
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); $assets_version = "?v=1.0.2" ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,13 +28,13 @@
 
 <body class="defult-home">
     <!--Preloader area start here-->
-    <div id="loader" class="loader">
+    <!-- <div id="loader" class="loader">
         <div class="loader-container">
             <div class='loader-icon'>
                 <?= img('assets/images/pre-logo.png'); ?>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--Preloader area End here-->
 
     <div class="full-width-header header-style1 home1-modifiy">
@@ -133,7 +133,7 @@
                                                 <?= anchor('syllabus', 'Exam Details'); ?>
                                             </li>
                                             <li>
-                                                <?= anchor('supporters', 'Supporters'); ?>
+                                                <?= anchor('supporters', 'My Supporters'); ?>
                                             </li>
                                             <li>
                                                 <?= anchor('how-to-apply', ' How to apply'); ?>
@@ -216,7 +216,7 @@
                         <ul class="address-widget">
                             <li>
                                 <i class="flaticon-location"></i>
-                                <div class="desc">401 Orchid,Socorbo Gardens Socorbo,Porvomin Bardez Goa-403501</div>
+                                <div class="desc">Orchid 401, Soccorrow Garden, Porvorim Goa-403501, India</div>
                             </li>
                             <li>
                                 <i class="flaticon-call"></i>
@@ -269,7 +269,7 @@
                             </li>
                             <li>
                                 <i class="flaticon-location"></i>
-                                <div class="desc"><strong>Ahmedabad :</strong> P-1602, Iscon platinium SP ring
+                                <div class="desc"><strong>Ahmedabad :</strong> P-1602, Iscon Platinium SP ring
                                     road,Bopal,Ahmedabad - 380058
                                 </div>
                             </li>

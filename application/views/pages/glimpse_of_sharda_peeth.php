@@ -8,7 +8,7 @@
         <h1 class="page-title">A Glimpse of Sharda Peeth</h1>
         <ul>
             <li>
-                <a class="active" href="index.php">Home</a>
+                <?= anchor('', 'Home', 'class="active"'); ?>
             </li>
             <li>A Glimpse of Sharda Peeth</li>
         </ul>

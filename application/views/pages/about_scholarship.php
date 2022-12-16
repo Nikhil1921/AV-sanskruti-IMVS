@@ -7,7 +7,7 @@
         <h1 class="page-title">About Scholarship</h1>
         <ul>
             <li>
-                <a class="active" href="index.php">Home</a>
+                <?= anchor('', 'Home', 'class="active"'); ?>
             </li>
             <li>About Scholarship</li>
         </ul>

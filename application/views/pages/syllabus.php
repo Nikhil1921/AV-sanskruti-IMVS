@@ -8,7 +8,7 @@
         <h1 class="page-title">Exam Details</h1>
         <ul>
             <li>
-                <a class="active" href="index.php">Home</a>
+                <?= anchor('', 'Home', 'class="active"'); ?>
             </li>
             <li>Exam Details</li>
         </ul>

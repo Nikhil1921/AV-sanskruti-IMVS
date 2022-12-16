@@ -98,9 +98,9 @@
 
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label>Select Current year STD:</label>
+                                <label>Current year STD (2021/2022)</label>
                                 <select class="form-control" name="exams" id="exm_cat" onchange="getPapers(this)">
-                                    <option readonly value="" selected> Select Current year STD</option>
+                                    <option readonly value="" selected> Current year STD</option>
                                     <?php foreach ($this->main->getCategory() as $cat): ?>
                                     <option data-price="<?= $cat['price'] ?>" value="<?= $cat['id'] ?>">
                                         <?= $cat['cat_name'] ?></option>
@@ -120,18 +120,18 @@
                         </div> -->
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label>Select Exam Paper Date</label>
+                                <label>Exam Paper Date</label>
                                 <select class="form-control" name="exam_date" id="exm_date" data-dependent="exam_lang"
                                     onchange="getLang(this)" readonly="">
-                                    <option disabled selected>Select Exam Paper Date</option>
+                                    <option disabled selected>Exam Paper Date</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label>Select Exam Language</label>
+                                <label>Exam Language</label>
                                 <select class="form-control" name="exam_lang" id="exam_lang" readonly="">
-                                    <option disabled selected>Select Exam Language</option>
+                                    <option disabled selected>Exam Language</option>
                                 </select>
                             </div>
                         </div>
@@ -146,7 +146,7 @@
                             <div class="bottom-info">
                                 <ul>
                                     <li>
-                                        Exam Fees: <span id="new_price">100</span> Rs
+                                        Exam Fees: <span id="new_price">0</span> Rs
                                     </li>
                                 </ul>
                             </div>
