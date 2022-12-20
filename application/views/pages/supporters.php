@@ -62,7 +62,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row justify-content-center mt-5">
+        <!-- <div class="row justify-content-center mt-5">
             <div class="col-lg-8 col-md-8 col-sm-12 col-12">
                 <div class="volunteers_form">
                     <h4>If you believe that education is important for the betterment of the country, then take a pledge
@@ -94,6 +94,6 @@
                     <?= form_close() ?>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
