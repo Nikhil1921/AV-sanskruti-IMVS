@@ -72,8 +72,7 @@
                         <div class="col-md-12">
                             <ul class="topbar-right">
                                 <li class="btn-part">
-                                    <a class="apply-btn" href="javascript:;" data-toggle="modal"
-                                        data-target="#registerModal">
+                                    <a class="apply-btn" href="javascript:;" data-toggle="modal" data-target="">
                                         Apply For Scholarship
                                     </a>
                                 </li>
